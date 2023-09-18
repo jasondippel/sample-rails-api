@@ -8,4 +8,8 @@ Here are any extra notes and special callouts:
   - There's a $7 / month "starter" paid account
   - Will also look into how convenient it is to simply start another project on render and port the data over
 - Guide worked pretty well, was able to deploy an app to Render and setup a DB
-- TODO: confirm migrations run as needed and app can talk to DB
+- Render can watch a GitHub repo and will deploy changes as it detects them
+- Confirmed migrations run as needed and app can talk to DB
+- Looks like being able to SSH into the service to access rails console (or other stuff) is stuck behind a paywall that requires a paid plan type
+  - Not terrible, just inconvenient
+  - Able to connect to DB with Postico, so can interact with data that way, just not as nice as the rails console (at least for me)
