@@ -7,3 +7,5 @@ Here are any extra notes and special callouts:
 - PostgresQL DB deletes after 90 days if not converted to paid account
   - There's a $7 / month "starter" paid account
   - Will also look into how convenient it is to simply start another project on render and port the data over
+- Guide worked pretty well, was able to deploy an app to Render and setup a DB
+- TODO: confirm migrations run as needed and app can talk to DB
